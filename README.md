@@ -27,7 +27,7 @@ watch -n 0.5 nvidia-smi
 
 ## Running the project
 
-De boer encoder + classifier:
+De zzzzzz encoder + classifier:
 
 ```shell
 bash -c "set -e;
@@ -36,7 +36,7 @@ config_file='sim_audio_distr_false';
 override='encoder_config.kld_weight=0 encoder_config.dataset.dataset=5 encoder_config.dataset.batch_size=128';
 
 
-cd /project_antwerp/Smooth-InfoMax/;
+cd /project_ggggggg/Smooth-InfoMax/;
 git fetch; git pull;
 pip install soundfile;
 pip install librosa;

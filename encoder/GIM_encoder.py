@@ -61,7 +61,7 @@ class GIM_Encoder():
 if __name__ == "__main__":
     from configs import OPTIONS as opt
 
-    # from data.xxxx_decoder_sounds import DeBoerDecoderDataset
+    # from data.xxxx_decoder_sounds import DezzzzzzDecoderDataset
     # import os
 
     encoder = GIM_Encoder(opt)
@@ -70,7 +70,7 @@ if __name__ == "__main__":
     # enc = encoder.encode(org_batch)
 
 #     print("Using Train+Val / Test Split")
-#     train_dataset = DeBoerDecoderDataset(
+#     train_dataset = DezzzzzzDecoderDataset(
 #         encoder,
 #         opt=opt,
 #         root=os.path.join(

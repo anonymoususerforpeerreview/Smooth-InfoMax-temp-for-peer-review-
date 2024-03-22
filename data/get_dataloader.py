@@ -10,7 +10,7 @@ NUM_WORKERS = 1  # 6
 
 def _dataloaders(dataset_options: DataSetConfig, train_specific_dir, test_specific_dir, train_sub_dir, test_sub_dir, shuffle):
     data_input_dir = dataset_options.data_input_dir
-    train_dataset = xxxx_sounds.DeBoerDataset(
+    train_dataset = xxxx_sounds.DezzzzzzDataset(
         dataset_options=dataset_options,
         root=os.path.join(
             data_input_dir, f"corpus/{train_specific_dir}"
@@ -18,7 +18,7 @@ def _dataloaders(dataset_options: DataSetConfig, train_specific_dir, test_specif
         directory=train_sub_dir,
     )
 
-    test_dataset = xxxx_sounds.DeBoerDataset(
+    test_dataset = xxxx_sounds.DezzzzzzDataset(
         dataset_options=dataset_options,
         root=os.path.join(
             data_input_dir, f"corpus/{test_specific_dir}",
@@ -49,7 +49,7 @@ def _dataloaders(dataset_options: DataSetConfig, train_specific_dir, test_specif
 
 def _get_xxxx_sounds_data_loaders(d_config: DataSetConfig, shuffle=True):
     ''' Retrieve dataloaders where audio signals are split into syllables '''
-    print("Loading De Boer Sounds dataset...")
+    print("Loading De zzzzzz Sounds dataset...")
 
     split: bool = d_config.split_in_syllables
     reshuffled_verison = d_config.dataset

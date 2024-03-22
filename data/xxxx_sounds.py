@@ -26,7 +26,7 @@ def default_flist_reader(flist):
     return item_list, speaker_dict
 
 
-class DeBoerDataset(Dataset):
+class DezzzzzzDataset(Dataset):
     ''' Corpus of vocals consisting of three syllables per file, spoken by the same speaker. '''
 
     def __init__(
